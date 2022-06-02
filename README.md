@@ -5,9 +5,11 @@ La realización de este proyecto es inspirado por mantener la segura la identida
 -> El proyecto espera resolver la conservación y monitoreo de objetos personales
 <p>
 -> Permitir que el usuario tenga una mayor atención de la seguridad al momento de guardar un objeto de valor
+  
 ## Descrpcion general
 Aqui va la descripcion general
 ## Material de uso
+  
 | Componente | Imagen | Descripcion | Cantidad |
 |------------|--------|-------------|----------|
 |Arduino UNO (genérico)|![imagen](https://user-images.githubusercontent.com/97042355/171695395-84bd2e25-5b02-49e7-a33e-f76e24021d2a.png)|* Microcontrolador ATmega328* 14 entradas y salidas digitales.* 6 entradas analógicas.* Memoria flash 32kb.* Frecuencia Reloj 12Mhz.* Soporta 9V-12V.|1|
