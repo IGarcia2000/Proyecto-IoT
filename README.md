@@ -7,7 +7,7 @@ La realización de este proyecto es inspirado por mantener la segura la identida
 -> Permitir que el usuario tenga una mayor atención de la seguridad al momento de guardar un objeto de valor
   
 ## Descrpcion general
-Aqui va la descripcion general
+El proyecto va dirigido para cualquier tipo de usuario que tenga en mente la protección de sus elementos privados o de valor. La realización del prototipo consta de la utilizacion de tecnologías como el internet de las cosas (IoT por sus siglas en ingles), que permite aumentar la seguridad del producto pudiendo accionarse de la forma que él desee.
 ## Material de uso
   
 | Componente | Imagen | Descripcion | Cantidad |
