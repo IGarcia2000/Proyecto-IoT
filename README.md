@@ -14,7 +14,18 @@ El proyecto va dirigido para cualquier tipo de usuario que tenga en mente la pro
 |------------|--------|-------------|----------|
 |Arduino UNO (genérico)|![imagen](https://user-images.githubusercontent.com/97042355/171695395-84bd2e25-5b02-49e7-a33e-f76e24021d2a.png)|* Microcontrolador ATmega328* 14 entradas y salidas digitales.* 6 entradas analógicas.* Memoria flash 32kb.* Frecuencia Reloj 12Mhz.* Soporta 9V-12V.|1|
 |ESP32| ![image](https://user-images.githubusercontent.com/97042355/177398997-ebb97cb2-ff4b-4a45-98bb-c70f8f9ec271.png)| •	Procesador 32 bits de doble núcleo. *	36 pines GPIO. * 520kb de memoria RAM. *	Bluetooth 4.2 2.4Ghz. *	Wifi integrado *	Frecuencia reloj 240Mhz|1|
-|Modulo relevador| ![image](https://user-images.githubusercontent.com/97042355/177399091-1212cb92-967a-48b1-beb4-74bb04aea3bf.png)|*	Voltaje de entrada: 5V *	Voltaje de control: 3V ~ 9V *	Dimensiones: 38 x 12 x 12 mm|2|
+|Modulo relevador| ![image](https://user-images.githubusercontent.com/97042355/177399091-1212cb92-967a-48b1-beb4-74bb04aea3bf.png)|*	Voltaje de entrada: 5V *	Voltaje de control: 3V ~ 9V *	Dimensiones: 38 x 12 x 12 mm|2|Voltaje de alimentación: 5 a 12 VDC 
+Consumo promedio: 1 mA
+Rango de distancia: 3 a 7 mts ajustable 
+Angulo de detección: 110°
+Tensión de salida en alto: 3.3 VDC
+Dimensiones: 3.2 x 2.4 x 1.8 cms
+|Sensor PIR|![image](https://user-images.githubusercontent.com/97042355/177399455-a1185f55-a211-4f60-8d3d-cf762f0ab547.png)|Voltaje de alimentación: 5 a 12 VDC 
+Consumo promedio: 1 mA
+Rango de distancia: 3 a 7 mts ajustable 
+Angulo de detección: 110°
+Tensión de salida en alto: 3.3 VDC
+Dimensiones: 3.2 x 2.4 x 1.8 cms|
 
 
 ## Historias de usuario
