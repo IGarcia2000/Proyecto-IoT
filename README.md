@@ -13,8 +13,9 @@ El proyecto va dirigido para cualquier tipo de usuario que tenga en mente la pro
 | Componente | Imagen | Descripcion | Cantidad |
 |------------|--------|-------------|----------|
 |Arduino UNO (genérico)|![imagen](https://user-images.githubusercontent.com/97042355/171695395-84bd2e25-5b02-49e7-a33e-f76e24021d2a.png)|* Microcontrolador ATmega328* 14 entradas y salidas digitales.* 6 entradas analógicas.* Memoria flash 32kb.* Frecuencia Reloj 12Mhz.* Soporta 9V-12V.|1|
-|ESP32| ![imagen](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwiki.fortu.io%2Fes%2FArduino%2FESP32_ESP8266&psig=AOvVaw23S97BewuLBuoZ_fOmSqJm&ust=1654284763796000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNDZir7Bj_gCFQAAAAAdAAAAABAD)| •	Procesador 32 bits de doble núcleo. *	36 pines GPIO. * 520kb de memoria RAM. *	Bluetooth 4.2 2.4Ghz. *	Wifi integrado *	Frecuencia reloj 240Mhz|1|
-|Modulo relevador| ![imagen](no_se_poner_imagen:P)|*	Voltaje de entrada: 5V *	Voltaje de control: 3V ~ 9V *	Dimensiones: 38 x 12 x 12 mm|2|
+|ESP32| ![image](https://user-images.githubusercontent.com/97042355/177398997-ebb97cb2-ff4b-4a45-98bb-c70f8f9ec271.png)
+| •	Procesador 32 bits de doble núcleo. *	36 pines GPIO. * 520kb de memoria RAM. *	Bluetooth 4.2 2.4Ghz. *	Wifi integrado *	Frecuencia reloj 240Mhz|1|
+|Modulo relevador| ![image](https://user-images.githubusercontent.com/97042355/177399091-1212cb92-967a-48b1-beb4-74bb04aea3bf.png)|*	Voltaje de entrada: 5V *	Voltaje de control: 3V ~ 9V *	Dimensiones: 38 x 12 x 12 mm|2|
 
 
 ## Historias de usuario
