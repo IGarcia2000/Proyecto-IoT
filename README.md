@@ -20,12 +20,7 @@ Rango de distancia: 3 a 7 mts ajustable
 Angulo de detección: 110°
 Tensión de salida en alto: 3.3 VDC
 Dimensiones: 3.2 x 2.4 x 1.8 cms
-|Sensor PIR|![image](https://user-images.githubusercontent.com/97042355/177399455-a1185f55-a211-4f60-8d3d-cf762f0ab547.png)|Voltaje de alimentación: 5 a 12 VDC 
-Consumo promedio: 1 mA
-Rango de distancia: 3 a 7 mts ajustable 
-Angulo de detección: 110°
-Tensión de salida en alto: 3.3 VDC
-Dimensiones: 3.2 x 2.4 x 1.8 cms|
+|Sensor PIR|![image](https://user-images.githubusercontent.com/97042355/177399455-a1185f55-a211-4f60-8d3d-cf762f0ab547.png)|* Voltaje de alimentación: 5 a 12 VDC * Consumo promedio: 1 mA * Rango de distancia: 3 a 7 mts ajustable * Angulo de detección: 110° * Tensión de salida en alto: 3.3 VDC * Dimensiones: 3.2 x 2.4 x 1.8 cms|
 
 
 ## Historias de usuario
