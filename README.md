@@ -17,6 +17,7 @@ El proyecto va dirigido para cualquier tipo de usuario que tenga en mente la pro
 |Sensor vibración|![image](https://www.e-ika.com/images/thumbs/0004703_sensor-de-vibracion-sw-420_600.jpeg)|* Voltaje de alimentación: 7 a 12 VDC * Voltaje de operación: 5V * Memoria Flash: 32KB * implementado para sistema de alarma anti robo |1|  
 |Sensor Humo|![image](https://leantec.es/wp-content/uploads/2018/02/p_1_3_8_7_1387-MQ-2-modulo-sensor-detector-humo-y-gas-combustible-Arduino.jpg)|* Voltaje de alimentación: 7 a 12 VDC * Voltaje de operación: 5V * Rango de detección: 300 a 10000ppm * Dimensiones: 32mm x 22mm x 27mm * implementado para detectar gas |1| 
 |Servomotor|![image](http://robots-argentina.com.ar/didactica/wp-content/uploads/servo-RC.png)|* Voltaje de operación: 4.8V a 6V * Rango máximo: 360° * Dimensiones: 40mm x 39mm x 20mm * implementado para el control de abrir y cerrar caja|1|
+|Buzzer|![image](https://www.hwlibre.com/wp-content/uploads/2019/08/buzzer-zumbador.jpg)|* Voltaje de operación: 1.5V a 5V * Rango de generación de tonos:  1.5 Hz – 2.5 kHz. * Dimensiones: 18mm x 15mm * implementado para dar advertencia|1|
 
 ## Historias de usuario
 | Numero | Epica |
