@@ -12,10 +12,11 @@ El proyecto va dirigido para cualquier tipo de usuario que tenga en mente la pro
   
 | Componente | Imagen | Descripcion | Cantidad |
 |------------|--------|-------------|----------|
-|ESP32| ![image](https://user-images.githubusercontent.com/97042355/177398997-ebb97cb2-ff4b-4a45-98bb-c70f8f9ec271.png)| •	Procesador 32 bits de doble núcleo. *	36 pines GPIO. * 520kb de memoria RAM. *	Bluetooth 4.2 2.4Ghz. *	Wifi integrado *	Frecuencia reloj 240Mhz|1|
-|Modulo relevador| ![image](https://user-images.githubusercontent.com/97042355/177399091-1212cb92-967a-48b1-beb4-74bb04aea3bf.png)|*	Voltaje de entrada: 5V *	Voltaje de control: 3V ~ 9V *	Dimensiones: 38 x 12 x 12 mm|2|
-|Sensor Ultrasónico|![image]([https://user-images.githubusercontent.com/97042355/177399455-a1185f55-a211-4f60-8d3d-cf762f0ab547.png](https://microside.com/wp-content/uploads/2021/10/Ultrasonico-700x347-1.png))|* Voltaje de alimentación: 5 a 12 VDC * Consumo promedio: 1.5 mA * Rango de distancia: 2cm hasta 200cm ajustable * Angulo de detección: 15°|1|
-
+|ESP32| ![image](https://user-images.githubusercontent.com/97042355/177398997-ebb97cb2-ff4b-4a45-98bb-c70f8f9ec271.png)| •	Procesador 32 bits de doble núcleo. *	36 pines GPIO. * 520kb de memoria RAM. *	Bluetooth 4.2 2.4Ghz. *	Wifi integrado *	Frecuencia reloj 240Mhz * Implementado para multiples funciones en aplicación móvil|1|
+|Sensor Ultrasónico|![image](https://microside.com/wp-content/uploads/2021/10/Ultrasonico-700x347-1.png)|* Voltaje de alimentación: 5 a 12 VDC * Consumo promedio: 1.5 mA * Rango de distancia: 2cm hasta 200cm ajustable * Angulo de detección: 15°|1|
+|Sensor vibración|![image](https://www.e-ika.com/images/thumbs/0004703_sensor-de-vibracion-sw-420_600.jpeg)|* Voltaje de alimentación: 7 a 12 VDC * Voltaje de operación: 5V * Memoria Flash: 32KB * implementado para sistema de alarma anti robo |1|  
+|Sensor Humo|![image](https://leantec.es/wp-content/uploads/2018/02/p_1_3_8_7_1387-MQ-2-modulo-sensor-detector-humo-y-gas-combustible-Arduino.jpg)|* Voltaje de alimentación: 7 a 12 VDC * Voltaje de operación: 5V * Rango de detección: 300 a 10000ppm * Dimensiones: 32mm x 22mm x 27mm * implementado para detectar gas |1| 
+|Servomotor|![image](http://robots-argentina.com.ar/didactica/wp-content/uploads/servo-RC.png)|* Voltaje de operación: 4.8V a 6V * Rango máximo: 360° * Dimensiones: 40mm x 39mm x 20mm * implementado para el control de abrir y cerrar caja|1|
 
 ## Historias de usuario
 | Numero | Epica |
