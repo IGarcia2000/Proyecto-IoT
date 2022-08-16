@@ -23,9 +23,12 @@ El proyecto va dirigido para cualquier tipo de usuario que tenga en mente la pro
 ## Historias de usuario
 | Numero | Epica |
 |--------|-------|
-|1|Yo como trabajador de seguridad quiero una aplicación que me facilite realzar las labores de mi trabajo de tal forma que al tener dicha aplicación pueda monitorear el entorno. |
-|2|Yo como ciudadano quiero un sistema que me permita almacenar y poder manejar mis archivos y documentos, entre otros objetos. Como una forma de modernizar mi hogar con nuevas tecnologías seguras que faciliten mi estilo de vida.|
-|3|Yo como gerente deseo poseer un control y registro portatil, de todo acceso a los archivos de gran importancia que poseo de mi propia empresa para mejorar la seguridad.|
+|1|Yo como trabajador de seguridad quiero un almacén que me permita guardar objetos de valor que además permanezcan seguros y estar al pendiente en todo momento de lo que pasa con mis cosas.|
+|2|	Yo como ciudadano quiero un producto inteligente donde se puedan almacenar objetos pequeños donde se pueda interactuar para abrirla o cerrarla a mi disposición.|
+|3|Yo como gerente de empresa requiero un producto inteligente que me permita mantener documentos importantes con la capacidad de estar notificado a la hora de alguna anomalía dentro de la oficina.|
+|4|Yo como padre de familia quiero un equipo inteligente con el que personalmente pueda interactuar y almacenar objetos y se mantengan protegidos contra cualquier persona del hogar.|
+|5|Yo como trabajador docente quiero un sistema de almacenamiento que me permita mantener objetos en resguardo y que este pueda bloquearse o desbloquearse con una especie de clave con la que pueda interactuar.|
+  
 ## Diagrama inicial
 
 ## Prototipo
