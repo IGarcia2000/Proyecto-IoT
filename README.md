@@ -28,6 +28,5 @@ El proyecto va dirigido para cualquier tipo de usuario que tenga en mente la pro
 |4|Yo como padre de familia quiero un equipo inteligente con el que personalmente pueda interactuar y almacenar objetos y se mantengan protegidos contra cualquier persona del hogar.|
 |5|Yo como trabajador docente quiero un sistema de almacenamiento que me permita mantener objetos en resguardo y que este pueda bloquearse o desbloquearse de manera sencilla.|
   
-## Diagrama inicial
 
 ## Prototipo
