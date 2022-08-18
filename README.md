@@ -23,10 +23,10 @@ El proyecto va dirigido para cualquier tipo de usuario que tenga en mente la pro
 | Numero | Epica |
 |--------|-------|
 |1|Yo como trabajador de seguridad quiero un almacén que me permita guardar objetos de valor que además permanezcan seguros y estar al pendiente en todo momento de lo que pasa con mis cosas.|
-|2|	Yo como ciudadano quiero un producto inteligente donde se puedan almacenar objetos pequeños donde se pueda interactuar para abrirla o cerrarla a mi disposición.|
+|2|	Yo como ciudadano quiero un producto inteligente donde se puedan almacenar objetos pequeños donde y estar enterado de su manipulación.|
 |3|Yo como gerente de empresa requiero un producto inteligente que me permita mantener documentos importantes con la capacidad de estar notificado a la hora de alguna anomalía dentro de la oficina.|
 |4|Yo como padre de familia quiero un equipo inteligente con el que personalmente pueda interactuar y almacenar objetos y se mantengan protegidos contra cualquier persona del hogar.|
-|5|Yo como trabajador docente quiero un sistema de almacenamiento que me permita mantener objetos en resguardo y que este pueda bloquearse o desbloquearse con una especie de clave con la que pueda interactuar.|
+|5|Yo como trabajador docente quiero un sistema de almacenamiento que me permita mantener objetos en resguardo y que este pueda bloquearse o desbloquearse de manera sencilla.|
   
 ## Diagrama inicial
 
