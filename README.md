@@ -64,7 +64,169 @@ Estos sensores estan conectados a la placa principal ESP32CAM que es alimentada 
 |Página de inicio de sesión |<img width="475" alt="image" src="https://user-images.githubusercontent.com/106187515/185768291-6d39a19d-cdeb-4bb9-b469-3369b972fc32.png">|
 |Página de registro de usuarios|<img width="423" alt="image" src="https://user-images.githubusercontent.com/106187515/185768337-e7260f48-064d-4bef-8f4a-ca06203efd34.png">|
 |Página principal|<img width="399" alt="image" src="https://user-images.githubusercontent.com/106187515/185768469-041b7df8-e5ad-4e42-85ad-514633bdac4f.png">|
+ 
+## Codigoo Arduino
+#include <WiFi.h>
+#include <Servo.h>
+#include <FirebaseESP32.h>
+// Provide the token generation process info.
+#include <addons/TokenHelper.h>
+
+// Provide the SD card interfaces setting and mounting
+#include <addons/SDHelper.h>
+
+// Provide the RTDB payload printing info and other helper functions.
+#include <addons/RTDBHelper.h>
+
+#define WIFI_SSID "FrikiLap"
+#define WIFI_PASSWORD "123456789"
+
+#define API_KEY "AIzaSyAr5P2YasdxUsXNLYAB3OFG05NU2BFNkJs"
+
+int SensorFlama = 15;
+int SensorHumo = 12;
+
+int leds = 16;
+Servo servoSeguro;
+
+// ULTRASONICO----------
+int pinTrig = 2;
+int pinEcho = 14;
+unsigned long tiempo, distancia;
+// ULTRASONICO----------
+
+#define DATABASE_URL "https://esp32-cam-3f64c-default-rtdb.firebaseio.com/" //<databaseName>.firebaseio.com or <databaseName>.<region>.firebasedatabase.app
+
+// Insert Authorized Email and Corresponding Password
+#define USER_EMAIL "ninjamexica@gmail.com"
+#define USER_PASSWORD "Hakainoh4nt40"
+
+// Insert Firebase storage bucket ID e.g bucket-name.appspot.com
+#define STORAGE_BUCKET_ID "AIzaSyAr5P2YasdxUsXNLYAB3OFG05NU2BFNkJs"
+
+FirebaseData fbdo;
+FirebaseAuth auth;
+FirebaseConfig configF;
+
+bool taskCompleted = false;
+String puerta="true";
+
+String nodo = "/Sensores";
+bool iterar = true;
+
+
+void setup()
+{
+  Serial.begin(115200);
+
+  pinMode(pinEcho, INPUT);
+  pinMode(pinTrig, OUTPUT);
+  pinMode(leds, OUTPUT);
+
+  servoSeguro.attach(4);
+  WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
+  Serial.print("Conectado al Wifi");
+  while (WiFi.status() != WL_CONNECTED)
+  {
+    Serial.print(".");
+    delay(300);
+  }
+
+
+  // Firebase
+  //  Assign the api key
+  configF.api_key = API_KEY;
+  // Assign the user sign in credentials
+  auth.user.email = USER_EMAIL;
+  auth.user.password = USER_PASSWORD;
+
+  configF.database_url = DATABASE_URL;
+  // Assign the callback function for the long running token generation task
+  configF.token_status_callback = tokenStatusCallback; // see addons/TokenHelper.h
+
+  Serial.println("");
+  Firebase.begin(&configF, &auth);
+  Firebase.reconnectWiFi(true);
+  Firebase.setDoubleDigits(5);
+  servoSeguro.write(0);
+
+}
+
+void loop()
+{
+  // while(iterar){
+  if (digitalRead(SensorFlama) == LOW)
+  {
+    Serial.println("Se detecta FLAMA");
+    Firebase.setBool(fbdo, nodo + "/sensorFlama", true);
+    //servoSeguro.write(0);
+  }
+  else
+  {
+    Serial.println("NO se detecta FLAMA");
+    Firebase.setBool(fbdo, nodo + "/sensorFlama", false);
+    delay(1000);
+    //servoSeguro.write(90);
+  }
+  if (digitalRead(SensorHumo) == HIGH)
+  {
+    Serial.println("Se detecto HUMO");
+    Firebase.setBool(fbdo, nodo + "/sensorHumo", true);
+  }
+  else
+  {
+    Serial.println("NO se detecto HUMO");
+    Firebase.setBool(fbdo, nodo + "/sensorHumo", false);
+    delay(1000);
+  }
+
+  digitalWrite(pinTrig, LOW);
+  delayMicroseconds(2);
+
+  digitalWrite(pinTrig, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(pinTrig, LOW);
+
+  tiempo = pulseIn(pinEcho, HIGH);
+
+  distancia = tiempo / 58;
+
+  // imprimir la distancia medida al monitor serial
+  Serial.print(F("Distancia: "));
+  Serial.print(distancia);
+  Serial.println(F(" cm"));
+
+  // esperar un segundo antes de realizar otra medición
+  delay(1000);
+
+  if (distancia > 40)
+  {
+    Serial.println("La caja esta abierta");
+    Firebase.setBool(fbdo, nodo + "/sensorSU", true);
+    digitalWrite(leds, HIGH);
   
+  }
+  else
+  {
+    Serial.println("La caja NO esta abierta");
+    Firebase.setBool(fbdo, nodo + "/sensorSU", false);
+    digitalWrite(leds, LOW);         
+  }
+
+  Firebase.getString(fbdo, nodo + "/servoC1");
+  puerta = fbdo.stringData();
+  Serial.println(puerta);
+
+  if(puerta=="true"){
+    servoSeguro.write(90);
+    }else{
+     servoSeguro.write(0);
+    }
+  
+
+  Serial.println("_____________________________________");
+}
+
 ## Conclusión
 El trabajo realizado por los integrantes de este equipo ha sido conforme a los conocimientos adquiridos a lo largo de nuestra estancia en la materia de IoT, estos mismos conocimentos fueron los que a su vez ayudaron a los integrantes a saber que aplicaciones o que usos tiene IoT.
 El uso de estas herramientos que proporciona la materia fue el punto principal de un objetivo impuesto por los mismo integrantes sobre una solucion o varias soluciones a problemas cotidianos del ser humano, entender que soluciones practicas podemos aplicar y con que herramientas solucionar dicho problema.
