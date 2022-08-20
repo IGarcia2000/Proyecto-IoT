@@ -10,6 +10,12 @@ La realización de este proyecto es inspirado por mantener la segura la identida
   
 ## Descrpcion general
 El proyecto va dirigido para cualquier tipo de usuario que tenga en mente la protección de sus elementos privados o de valor. La realización del prototipo consta de la utilizacion de tecnologías como el internet de las cosas (IoT por sus siglas en ingles), que permite aumentar la seguridad del producto pudiendo accionarse de la forma que él desee.
+	
+## Software empleado:
+°App Inventor 
+°Arduino IDE
+°Firebase	
+	
 ## Material de uso
   
 | Componente | Imagen | Descripcion | Cantidad |
