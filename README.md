@@ -37,7 +37,36 @@ El proyecto va dirigido para cualquier tipo de usuario que tenga en mente la pro
 
 ## Diseño
 ![image](https://user-images.githubusercontent.com/97042355/185761473-57fd3725-265e-4c9b-98f1-a0f6ee80dd74.png)
-  
+
+## Registro de las Actividades
+
+|Actividades Hechas|	                                       |Actividades en Proceso |	                                        |Actividades por Realizar|
+ ____________________________________________________________________________________________________________________________________________________________
+°Creacion de la base de datos(Firebase) 	                      
+°Creacion del frontend para la pagina de                       
+monitorizacion de los sensores                               
+°Listado de sensores y actuadores(Sensor ultrasonico, 
+sensor de humo, sensor de flama, sensor de vibracion, 
+Leds, buzzer, servomotor)	
+°Creacion del backend para la pagina de monitorizacion
+°Creacion del maquetado del circuito 	
+°Creacion de la caja fuerte(Adaptando y posicionando 
+los lugares donde estarán los sensores) 	
+°Maquetado de la aplicación movil
+Creacion del frontend login(Inicio de secion y registro de usuario)
+°Enlazar el circuito con la aplicación
+°Creacion del backend login (Funcionamiento del registro de usuarios y seguridad para el inicio de sesion)		
+°Creacion del frontend para la pagina de inicio(Lo que se mostrará al usuario)
+°Creacion del backend para la pagina de inicio(Funcionalidad 
+para enlazar la pagina de monitorizacion de sensores y de inicio de sesion) 		
+°Enlazar la aplicación con la Base de datos
+°Prueba final del proyecto
+		
+![image](https://user-images.githubusercontent.com/106643035/185761797-25e9e0c5-d6f0-467f-b5e9-f32a69870c30.png)
+
+## Arquitectura: 
+El proyecto se compone de la construcción de una caja de madera para asegurar las pertenencias que se almacenen, ademas se integra el circuito para hacer su funcionamiento. Cuenta con actuadores para manipular el bloqueo o desbloqueo de la caja, a su vez, integra sensores que advierten al usuario en caso de que pueda incendiarse la caja
+Estos sensores estan conectados a la placa principal ESP32CAM que es alimentada a 5V mediante cable USB. La placa principal permite conexión a internet para mandar o traer datos de los sensores almacenados en una base de datos en tiempo real con Firebase Console, esto en conjunto con la aplicación desarrollada en el software App Inventor, permite al usuario tener una interfaz sencilla y agradable y poder manipular ciertas funcionalidades de la caja gracias a la conexión con Firebase mediante internet
   
 ## Conclusión
 El trabajo realizado por los integrantes de este equipo ha sido conforme a los conocimientos adquiridos a lo largo de nuestra estancia en la materia de IoT, estos mismos conocimentos fueron los que a su vez ayudaron a los integrantes a saber que aplicaciones o que usos tiene IoT.
