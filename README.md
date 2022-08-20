@@ -21,10 +21,8 @@ El proyecto va dirigido para cualquier tipo de usuario que tenga en mente la pro
 	
 ## Software empleado:
 °App Inventor 
-	
 °Arduino IDE
-	
-°Firebase
+°Firebase	
 	
 ## Material de uso
   
@@ -38,7 +36,8 @@ El proyecto va dirigido para cualquier tipo de usuario que tenga en mente la pro
 |Sensor Humo|![image](https://leantec.es/wp-content/uploads/2018/02/p_1_3_8_7_1387-MQ-2-modulo-sensor-detector-humo-y-gas-combustible-Arduino.jpg)|* Voltaje de alimentación: 7 a 12 VDC * Voltaje de operación: 3V - 7V * Torque: 1.8Kg-cm * Angulo de rotación: 180° * Funciona para bloquear la puerta|1| 
 |Buzzer|![image](https://www.hwlibre.com/wp-content/uploads/2019/08/buzzer-zumbador.jpg)|* Voltaje de operación: 1.5V a 5V * Rango de generación de tonos:  1.5 Hz – 2.5 kHz. * Dimensiones: 18mm x 15mm * implementado para dar advertencia|1|
   
-
+##Software utilizado
+|Mit app inventor| * Licencia : Creative Commons Attribution ShareAlike 3.0 |
   
 ## Historias de usuario
 | Numero | Epica |
@@ -61,6 +60,11 @@ El proyecto va dirigido para cualquier tipo de usuario que tenga en mente la pro
 ## Arquitectura: 
 El proyecto se compone de la construcción de una caja de madera para asegurar las pertenencias que se almacenen, ademas se integra el circuito para hacer su funcionamiento. Cuenta con actuadores para manipular el bloqueo o desbloqueo de la caja, a su vez, integra sensores que advierten al usuario en caso de que pueda incendiarse la caja
 Estos sensores estan conectados a la placa principal ESP32CAM que es alimentada a 5V mediante cable USB. La placa principal permite conexión a internet para mandar o traer datos de los sensores almacenados en una base de datos en tiempo real con Firebase Console, esto en conjunto con la aplicación desarrollada en el software App Inventor, permite al usuario tener una interfaz sencilla y agradable y poder manipular ciertas funcionalidades de la caja gracias a la conexión con Firebase mediante internet
+	
+## Bloques App Inventor:
+|Página de inicio de sesión |<img width="475" alt="image" src="https://user-images.githubusercontent.com/106187515/185768291-6d39a19d-cdeb-4bb9-b469-3369b972fc32.png">|
+|Página de registro de usuarios|<img width="423" alt="image" src="https://user-images.githubusercontent.com/106187515/185768337-e7260f48-064d-4bef-8f4a-ca06203efd34.png">|
+|Página principal|<img width="399" alt="image" src="https://user-images.githubusercontent.com/106187515/185768469-041b7df8-e5ad-4e42-85ad-514633bdac4f.png">|
   
 ## Conclusión
 El trabajo realizado por los integrantes de este equipo ha sido conforme a los conocimientos adquiridos a lo largo de nuestra estancia en la materia de IoT, estos mismos conocimentos fueron los que a su vez ayudaron a los integrantes a saber que aplicaciones o que usos tiene IoT.
