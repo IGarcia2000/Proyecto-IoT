@@ -41,9 +41,10 @@ El proyecto va dirigido para cualquier tipo de usuario que tenga en mente la pro
 ## Registro de las Actividades
 
 |Actividades Hechas|	                                       |Actividades en Proceso |	                                        |Actividades por Realizar|
- ____________________________________________________________________________________________________________________________________________________________
-	
-![image](https://user-images.githubusercontent.com/106643035/185761797-25e9e0c5-d6f0-467f-b5e9-f32a69870c30.png)
+ ___________________________________________________________________________________________________________________________________________________________		
+				
+![image](https://user-images.githubusercontent.com/106643035/185762115-f0d9f7db-0a1e-45aa-82c3-bb1aba1e46fc.png)
+
 
 ## Arquitectura: 
 El proyecto se compone de la construcción de una caja de madera para asegurar las pertenencias que se almacenen, ademas se integra el circuito para hacer su funcionamiento. Cuenta con actuadores para manipular el bloqueo o desbloqueo de la caja, a su vez, integra sensores que advierten al usuario en caso de que pueda incendiarse la caja
