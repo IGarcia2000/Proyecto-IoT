@@ -62,6 +62,8 @@ El proyecto se compone de la construcción de una caja de madera para asegurar l
 Estos sensores estan conectados a la placa principal ESP32CAM que es alimentada a 5V mediante cable USB. La placa principal permite conexión a internet para mandar o traer datos de los sensores almacenados en una base de datos en tiempo real con Firebase Console, esto en conjunto con la aplicación desarrollada en el software App Inventor, permite al usuario tener una interfaz sencilla y agradable y poder manipular ciertas funcionalidades de la caja gracias a la conexión con Firebase mediante internet
 	
 ## Bloques App Inventor:
+| Página | Bloques de código |
+|--------|-------------------|
 |Página de inicio de sesión |<img width="475" alt="image" src="https://user-images.githubusercontent.com/106187515/185768291-6d39a19d-cdeb-4bb9-b469-3369b972fc32.png">|
 |Página de registro de usuarios|<img width="423" alt="image" src="https://user-images.githubusercontent.com/106187515/185768337-e7260f48-064d-4bef-8f4a-ca06203efd34.png">|
 |Página principal|<img width="399" alt="image" src="https://user-images.githubusercontent.com/106187515/185768469-041b7df8-e5ad-4e42-85ad-514633bdac4f.png">|
