@@ -48,8 +48,9 @@ El proyecto va dirigido para cualquier tipo de usuario que tenga en mente la pro
 
 |Actividades Hechas|	                                       |Actividades en Proceso |	                                        |Actividades por Realizar|
  ___________________________________________________________________________________________________________________________________________________________		
-				
-![image](https://user-images.githubusercontent.com/106643035/185762115-f0d9f7db-0a1e-45aa-82c3-bb1aba1e46fc.png)
+	
+![image](https://user-images.githubusercontent.com/106643035/185762404-81d9d391-395f-4463-b4e7-2d22dffeb10e.png)
+
 
 
 ## Arquitectura: 
