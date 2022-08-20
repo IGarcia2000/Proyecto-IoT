@@ -21,7 +21,9 @@ El proyecto va dirigido para cualquier tipo de usuario que tenga en mente la pro
 	
 ## Software empleado:
 °App Inventor 
+	
 °Arduino IDE
+	
 °Firebase
 	
 ## Material de uso
