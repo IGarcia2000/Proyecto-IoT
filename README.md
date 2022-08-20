@@ -66,16 +66,21 @@ Estos sensores estan conectados a la placa principal ESP32CAM que es alimentada 
 |Página principal|<img width="399" alt="image" src="https://user-images.githubusercontent.com/106187515/185768469-041b7df8-e5ad-4e42-85ad-514633bdac4f.png">|
  
 ## Codigoo Arduino
+```	
 #include <WiFi.h>
 #include <Servo.h>
 #include <FirebaseESP32.h>
+	
 // Provide the token generation process info.
+	
 #include <addons/TokenHelper.h>
 
 // Provide the SD card interfaces setting and mounting
+	
 #include <addons/SDHelper.h>
 
 // Provide the RTDB payload printing info and other helper functions.
+	
 #include <addons/RTDBHelper.h>
 
 #define WIFI_SSID "FrikiLap"
@@ -98,10 +103,12 @@ unsigned long tiempo, distancia;
 #define DATABASE_URL "https://esp32-cam-3f64c-default-rtdb.firebaseio.com/" //<databaseName>.firebaseio.com or <databaseName>.<region>.firebasedatabase.app
 
 // Insert Authorized Email and Corresponding Password
+	
 #define USER_EMAIL "ninjamexica@gmail.com"
 #define USER_PASSWORD "Hakainoh4nt40"
 
 // Insert Firebase storage bucket ID e.g bucket-name.appspot.com
+	
 #define STORAGE_BUCKET_ID "AIzaSyAr5P2YasdxUsXNLYAB3OFG05NU2BFNkJs"
 
 FirebaseData fbdo;
@@ -134,14 +141,19 @@ void setup()
 
 
   // Firebase
+	
   //  Assign the api key
+	
   configF.api_key = API_KEY;
+	
   // Assign the user sign in credentials
   auth.user.email = USER_EMAIL;
+	
   auth.user.password = USER_PASSWORD;
 
   configF.database_url = DATABASE_URL;
   // Assign the callback function for the long running token generation task
+	
   configF.token_status_callback = tokenStatusCallback; // see addons/TokenHelper.h
 
   Serial.println("");
@@ -192,11 +204,13 @@ void loop()
   distancia = tiempo / 58;
 
   // imprimir la distancia medida al monitor serial
+	
   Serial.print(F("Distancia: "));
   Serial.print(distancia);
   Serial.println(F(" cm"));
 
   // esperar un segundo antes de realizar otra medición
+	
   delay(1000);
 
   if (distancia > 40)
@@ -226,6 +240,7 @@ void loop()
 
   Serial.println("_____________________________________");
 }
+```
 
 ## Conclusión
 El trabajo realizado por los integrantes de este equipo ha sido conforme a los conocimientos adquiridos a lo largo de nuestra estancia en la materia de IoT, estos mismos conocimentos fueron los que a su vez ayudaron a los integrantes a saber que aplicaciones o que usos tiene IoT.
