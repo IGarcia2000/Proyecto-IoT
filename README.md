@@ -35,7 +35,6 @@ El proyecto va dirigido para cualquier tipo de usuario que tenga en mente la pro
 |5|Yo como trabajador docente quiero un sistema de almacenamiento que me permita mantener objetos en resguardo y que este pueda bloquearse o desbloquearse de manera sencilla.|
   
 
-## Prototipo
-https://youtu.be/vJm_1Inp9Sg
+## 
   
 
