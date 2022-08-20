@@ -54,9 +54,6 @@ El proyecto va dirigido para cualquier tipo de usuario que tenga en mente la pro
 
 ## Registro de las Actividades
 
-|Actividades Hechas|	                                       |Actividades en Proceso |	                                        |Actividades por Realizar|
- ___________________________________________________________________________________________________________________________________________________________		
-	
 ![image](https://user-images.githubusercontent.com/106643035/185762404-81d9d391-395f-4463-b4e7-2d22dffeb10e.png)
 
 
