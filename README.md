@@ -36,9 +36,6 @@ El proyecto va dirigido para cualquier tipo de usuario que tenga en mente la pro
 |Sensor Humo|![image](https://leantec.es/wp-content/uploads/2018/02/p_1_3_8_7_1387-MQ-2-modulo-sensor-detector-humo-y-gas-combustible-Arduino.jpg)|* Voltaje de alimentación: 7 a 12 VDC * Voltaje de operación: 3V - 7V * Torque: 1.8Kg-cm * Angulo de rotación: 180° * Funciona para bloquear la puerta|1| 
 |Buzzer|![image](https://www.hwlibre.com/wp-content/uploads/2019/08/buzzer-zumbador.jpg)|* Voltaje de operación: 1.5V a 5V * Rango de generación de tonos:  1.5 Hz – 2.5 kHz. * Dimensiones: 18mm x 15mm * implementado para dar advertencia|1|
   
-##Software utilizado
-|Mit app inventor| * Licencia : Creative Commons Attribution ShareAlike 3.0 |
-  
 ## Historias de usuario
 | Numero | Epica |
 |--------|-------|
