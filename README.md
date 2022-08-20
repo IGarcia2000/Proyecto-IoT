@@ -37,6 +37,13 @@ El proyecto va dirigido para cualquier tipo de usuario que tenga en mente la pro
 
 ## Diseño
 ![image](https://user-images.githubusercontent.com/97042355/185761473-57fd3725-265e-4c9b-98f1-a0f6ee80dd74.png)
+  
+  
+##Conclusión
+El trabajo realizado por los integrantes de este equipo ha sido conforme a los conocimientos adquiridos a lo largo de nuestra estancia en la materia de IoT, estos mismos conocimentos fueron los que a su vez ayudaron a los integrantes a saber que aplicaciones o que usos tiene IoT.
+El uso de estas herramientos que proporciona la materia fue el punto principal de un objetivo impuesto por los mismo integrantes sobre una solucion o varias soluciones a problemas cotidianos del ser humano, entender que soluciones practicas podemos aplicar y con que herramientas solucionar dicho problema.
+
+Para la realización de este proyecto pusimos a prueba nustros conocimientos y aplicamos difirentes herramientas informaticas para la conclusion final de nuestra caja. Para dicha caja, el motivo principal fue usar la cantidad correcta de sensores y actuadores y acomodarlos en un entorno donde dependiendo de las necesidades de el cliente, o bien, en este caso las epicas procpuestas por el equipo, cumplamos con los requerimientos y las necesidades solicitadas.
 
   
 
