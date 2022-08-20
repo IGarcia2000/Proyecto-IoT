@@ -53,9 +53,8 @@ El proyecto va dirigido para cualquier tipo de usuario que tenga en mente la pro
 ![image](https://user-images.githubusercontent.com/97042355/185761473-57fd3725-265e-4c9b-98f1-a0f6ee80dd74.png)
 
 ## Registro de las Actividades
-
-![image](https://user-images.githubusercontent.com/106643035/185762404-81d9d391-395f-4463-b4e7-2d22dffeb10e.png)
-
+		
+![image](https://user-images.githubusercontent.com/106643035/185762598-7fc493f7-1197-429f-bd1c-a9ce2c902d83.png)
 
 
 ## Arquitectura: 
