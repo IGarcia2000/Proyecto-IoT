@@ -42,26 +42,7 @@ El proyecto va dirigido para cualquier tipo de usuario que tenga en mente la pro
 
 |Actividades Hechas|	                                       |Actividades en Proceso |	                                        |Actividades por Realizar|
  ____________________________________________________________________________________________________________________________________________________________
-°Creacion de la base de datos(Firebase) 	                      
-°Creacion del frontend para la pagina de                       
-monitorizacion de los sensores                               
-°Listado de sensores y actuadores(Sensor ultrasonico, 
-sensor de humo, sensor de flama, sensor de vibracion, 
-Leds, buzzer, servomotor)	
-°Creacion del backend para la pagina de monitorizacion
-°Creacion del maquetado del circuito 	
-°Creacion de la caja fuerte(Adaptando y posicionando 
-los lugares donde estarán los sensores) 	
-°Maquetado de la aplicación movil
-Creacion del frontend login(Inicio de secion y registro de usuario)
-°Enlazar el circuito con la aplicación
-°Creacion del backend login (Funcionamiento del registro de usuarios y seguridad para el inicio de sesion)		
-°Creacion del frontend para la pagina de inicio(Lo que se mostrará al usuario)
-°Creacion del backend para la pagina de inicio(Funcionalidad 
-para enlazar la pagina de monitorizacion de sensores y de inicio de sesion) 		
-°Enlazar la aplicación con la Base de datos
-°Prueba final del proyecto
-		
+	
 ![image](https://user-images.githubusercontent.com/106643035/185761797-25e9e0c5-d6f0-467f-b5e9-f32a69870c30.png)
 
 ## Arquitectura: 
