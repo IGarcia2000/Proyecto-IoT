@@ -83,10 +83,10 @@ Estos sensores estan conectados a la placa principal ESP32CAM que es alimentada 
 	
 #include <addons/RTDBHelper.h>
 
-#define WIFI_SSID "FrikiLap"
-#define WIFI_PASSWORD "123456789"
+#define WIFI_SSID "*******"
+#define WIFI_PASSWORD ""*******""
 
-#define API_KEY "AIzaSyAr5P2YasdxUsXNLYAB3OFG05NU2BFNkJs"
+#define API_KEY ""*******""
 
 int SensorFlama = 15;
 int SensorHumo = 12;
@@ -100,16 +100,16 @@ int pinEcho = 14;
 unsigned long tiempo, distancia;
 // ULTRASONICO----------
 
-#define DATABASE_URL "https://esp32-cam-3f64c-default-rtdb.firebaseio.com/" //<databaseName>.firebaseio.com or <databaseName>.<region>.firebasedatabase.app
+#define DATABASE_URL "********" //<databaseName>.firebaseio.com or <databaseName>.<region>.firebasedatabase.app
 
 // Insert Authorized Email and Corresponding Password
 	
-#define USER_EMAIL "ninjamexica@gmail.com"
-#define USER_PASSWORD "Hakainoh4nt40"
+#define USER_EMAIL "************"
+#define USER_PASSWORD "**************"
 
 // Insert Firebase storage bucket ID e.g bucket-name.appspot.com
 	
-#define STORAGE_BUCKET_ID "AIzaSyAr5P2YasdxUsXNLYAB3OFG05NU2BFNkJs"
+#define STORAGE_BUCKET_ID "******************"
 
 FirebaseData fbdo;
 FirebaseAuth auth;
